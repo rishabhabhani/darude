@@ -1,0 +1,491 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+
+        <!-- Bootstrap CSS -->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+            crossorigin="anonymous"
+        />
+
+        <!-- Google Fonts -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Custom Style -->
+        <link rel="stylesheet" href="static/css/style.css" />
+
+        <!-- Bootstrap Jquery -->
+        <script
+            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <section class="title-section jumbotron-fluid">
+            <h1>Welcome To <span class="underline-text">Darude</span></h1>  
+            <h3>We Help you quench your sweet cravings</h3>
+
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light" style="background-color: transparent;">
+                    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                      <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+                        <li class="nav-item active px-4">
+                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item px-4">
+                          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Menu</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About us</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+    
+            </div>
+
+            
+        </section>
+
+        <section class="featured-section">
+            <h1>Featured Items</h1>
+            <hr>
+            <div
+                id="multi-item-example"
+                class="carousel slide carousel-multi-item mx-auto"
+                data-ride="carousel"
+            >
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card mb-2 featured-card">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-4">
+                                            <div
+                                                class="embed-responsive embed-responsive-4by3"
+                                            >
+                                                <img
+                                                    class="card-img-top featured-image embed-responsive-item"
+                                                    src="static/img/chocolate-mousse-.jpg"
+                                                    alt="Card image cap"
+                                                />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8 card-details">
+                                            <div class="card-body">
+                                                <h2>Chocolate Mousse</h2>
+                                                <p class="card-text">
+                                                    Some quick example text to
+                                                    build on the card title and
+                                                    make up the bulk of the
+                                                    card's content.
+                                                </p>
+                                                
+                                            </div>
+                                            <div class="card-footer">
+                                                <a class="btn btn-primary"
+                                                    >Check-it Out</a
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card mb-2 featured-card">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-4">
+                                            <div
+                                                class="embed-responsive embed-responsive-4by3"
+                                            >
+                                                <img
+                                                    class="card-img-top featured-image embed-responsive-item"
+                                                    src="static/img/coffee_terrine.jpg"
+                                                    alt="Card image cap"
+                                                />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8 card-details">
+                                            <div class="card-body">
+                                                <h2>Coffee Terrine</h2>
+                                                <p class="card-text">
+                                                    Some quick example text to
+                                                    build on the card title and
+                                                    make up the bulk of the
+                                                    card's content.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <a class="btn btn-primary"
+                                                    >Check-it Out</a
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card mb-2 featured-card">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-4">
+                                            <div
+                                                class="embed-responsive embed-responsive-4by3"
+                                            >
+                                                <img
+                                                    class="card-img-top featured-image embed-responsive-item"
+                                                    src="static/img/molten-cake.jpg"
+                                                    alt="Card image cap"
+                                                />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8 card-details">
+                                            <div class="card-body">
+                                                <h2 class="card-title">
+                                                    Molten Cake
+                                                </h2>
+                                                <p class="card-text">
+                                                    Some quick example text to
+                                                    build on the card title and
+                                                    make up the bulk of the
+                                                    card's content.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <a class="btn btn-primary"
+                                                    >Check-it Out</a
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="top-order-section">
+            <h1>Top Orders</h1>
+            <hr>
+            <div class="top-order-container">
+                <div class="card top-order-card bg-dark">
+                    <div class="card-body">
+                        <h5 class="card-title">SOLO SWEETNER</h5>
+                        <p class="card-text">
+                            For people who love to eat desserts all by
+                            themselves.
+                        </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item list-group-item-warning">
+                            Buttery Raspberry Crumble Bars
+                        </li>
+                        <li class="list-group-item list-group-item-warning">
+                            Mint Oreo Cake
+                        </li>
+                    </ul>
+                    <div class="card-body">
+                        <div class="top-order-card-footer">
+                            <p class="card-text">
+                                TOTAL: $50
+                            </p>
+                            <a href="#" class="btn btn-warning btn-sm"
+                                >Get this Delight</a
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card top-order-card bg-dark">
+                    <div class="card-body">
+                        <h5 class="card-title">DESSERT DUET</h5>
+                        <p class="card-text">
+                            Share these special desserts with your special one.
+                        </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item list-group-item-warning">
+                            Ultimate Gooey Brownies
+                        </li>
+                        <li class="list-group-item list-group-item-warning">
+                            Chocolate and Strawberry Cake
+                        </li>
+                        <li class="list-group-item list-group-item-warning">
+                            Butterfinger Cookie Cheesecake
+                        </li>
+                    </ul>
+                    <div class="card-body">
+                        <div class="top-order-card-footer">
+                            <p class="card-text">
+                                TOTAL: $75
+                            </p>
+                            <a href="#" class="btn btn-warning btn-sm"
+                                >Get this Delight</a
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card top-order-card bg-dark">
+                    <div class="card-body">
+                        <h5 class="card-title">SUPER DESSERT BOWL</h5>
+                        <p class="card-text">
+                            For four person delight. Large enough to share.
+                        </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item list-group-item-warning">
+                            Ultimate Gooey Brownies
+                        </li>
+                        <li class="list-group-item list-group-item-warning">
+                            Meyer Lemon Bars
+                        </li>
+                        <li class="list-group-item list-group-item-warning">
+                            Mint Oreo Cake
+                        </li>
+                        <li class="list-group-item list-group-item-warning">
+                            Salted Caramel Chocolate Tart
+                        </li>
+                        <li class="list-group-item list-group-item-warning">
+                            Nutella Mascarpone Chocolate Tarts
+                        </li>
+                    </ul>
+                    <div class="card-body">
+                        <div class="top-order-card-footer">
+                            <p class="card-text">
+                                TOTAL: $200
+                            </p>
+                            <a href="#" class="btn btn-warning btn-sm"
+                                >Get this Delight</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="rating-section">
+            <h1>Customer Reviews</h1>
+            <hr>
+            <div
+                id="multi-rating-example"
+                class="carousel slide carousel-multi-item mx-auto"
+                data-ride="carousel"
+            >
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="card mb-2 rating-card">
+                                    <div class="row no-gutters">
+                                        <div class="col-4">
+                                            <img
+                                                class="card-img-top rating-image"
+                                                src="static/img/profile-icon.jpg"
+                                                alt="Card image cap"
+                                            />
+                                        </div>
+                                        <div class="col-8 card-details">
+                                            <div class="card-body">
+                                                <h3>Simply Amazing</h3>
+                                                <p class="card-text">
+                                                    The desserts are absolutely
+                                                    amazing. Every bite is a
+                                                    rich experience.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <span class="rate-stars">
+                                                    <i class="fas fa-star fa-xs blue-star"></i>
+                                                    <i class="fas fa-star fa-xs blue-star"></i>
+                                                    <i class="fas fa-star fa-xs blue-star"></i>
+                                                    <i class="fas fa-star fa-xs blue-star"></i>
+                                                    <i class="fas fa-star fa-xs"></i>
+                                                </span>
+                                            </div>  
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card mb-2 rating-card">
+                                    <div class="row no-gutters">
+                                        <div class="col-4">
+                                            <img
+                                                class="card-img-top rating-image"
+                                                src="static/img/profile-icon.jpg"
+                                                alt="Card image cap"
+                                            />
+                                        </div>
+                                        <div class="col-8 card-details">
+                                            <div class="card-body">
+                                                <h3>Loved It</h3>
+                                                <p class="card-text">
+                                                    Cause all of me, wants all
+                                                    of these.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <span class="rate-stars">
+                                                    <i class="fas fa-star fa-xs blue-star"></i>
+                                                    <i class="fas fa-star fa-xs blue-star"></i>
+                                                    <i class="fas fa-star fa-xs blue-star"></i>
+                                                    <i class="fas fa-star fa-xs blue-star"></i>
+                                                    <i class="fas fa-star fa-xs blue-star"></i>
+                                                </span>
+                                            </div>  
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="card mb-2 rating-card">
+                                    <div class="row no-gutters">
+                                        <div class="col-4">
+                                            <img
+                                                class="card-img-top rating-image"
+                                                src="static/img/profile-icon.jpg"
+                                                alt="Card image cap"
+                                            />
+                                        </div>
+                                        <div class="col-8 card-details">
+                                            <div class="card-body">
+                                                <h3>Awesome</h3>
+                                                <p class="card-text">
+                                                    The ambiance is one of the
+                                                    finest.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <span class="rate-stars">
+                                                    <i class="fas fa-star fa-xs blue-star"></i>
+                                                    <i class="fas fa-star fa-xs blue-star"></i>
+                                                    <i class="fas fa-star fa-xs blue-star"></i>
+                                                    <i class="fas fa-star fa-xs blue-star"></i>
+                                                    <i class="fas fa-star fa-xs"></i>
+                                                </span>
+                                            </div>  
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="information-section">
+            <h1>Information</h1>
+            <div class="container">
+                <hr>
+                <h2><i class="fas fa-star fa-xs"></i> Darude - The sweetness Expert</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                    repellat nemo nihil sed! Quibusdam porro corrupti commodi
+                    similique accusamus maxime mollitia quis vitae, fugiat,
+                    facilis, voluptatum voluptatem labore eligendi totam! Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Repellat
+                    neque quaerat excepturi vel laborum earum eligendi eum
+                    dolores, nesciunt animi minus amet enim praesentium
+                    accusantium inventore non quod nulla consequatur!
+                </p>
+                <hr>
+                <h2><i class="fas fa-star fa-xs"></i> The Promise of Quality</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                    repellat nemo nihil sed! Quibusdam porro corrupti commodi
+                    similique accusamus maxime mollitia quis vitae, fugiat,
+                    facilis, voluptatum voluptatem labore eligendi totam! Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Repellat
+                    neque quaerat excepturi vel laborum earum eligendi eum
+                    dolores, nesciunt animi minus amet enim praesentium
+                    accusantium inventore non quod nulla consequatur!
+                </p>
+                <hr>
+                <h2><i class="fas fa-star fa-xs"></i> Franchaise Information</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                    repellat nemo nihil sed! Quibusdam porro corrupti commodi
+                    similique accusamus maxime mollitia quis vitae, fugiat,
+                    facilis, voluptatum voluptatem labore eligendi totam! Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Repellat
+                    neque quaerat excepturi vel laborum earum eligendi eum
+                    dolores, nesciunt animi minus amet enim praesentium
+                    accusantium inventore non quod nulla consequatur!
+                </p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <h1>Contact Us</h1>
+            <hr>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <h3><i class="fas fa-map-marked-alt"></i> Address</h3>
+                        <p>Yeh jagah <br> exist nahi karti. <br> toh yaha jaana mat <br> Surat - 397007</p>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <h3><i class="fas fa-phone"></i> Phone Number</h3>
+                        <p>+91 0000 0000 00</p>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <h3><i class="fas fa-at"></i> Email Id</h3>
+                        <p>yehbhinahichalta@gmail.com</p>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <h3><i class="fas fa-clock"></i> Opening Time</h3>
+                        <p>8AM - 12PM <br>3PM - 12PM</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="footer">
+            <p>All Rights Reserved. Copyright © XXXXX XXXXX</p>             
+        <div class="footer">
+    </body>
+</html>
